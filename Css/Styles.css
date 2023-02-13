@@ -1,16 +1,24 @@
-body{
-    background-color: black;
+#input {
     text-align: center;
-    width: 500px;
+}
+
+#input input {
+    width: 400px;
+    margin: 10px;
+}
+
+#input textarea {
+    width: 400px;
+    margin: 10px;
 }
 
 #output {
-    color: aliceblue;
-    /* height: 300px;
-    width: 400px;
-    border: 2px solid white; */
+    text-align: center;
 }
 
 .output-box {
-    border: 2px solid white;
+    border: 2px solid black;
+    width: 400px;
+    margin: 10px auto;
+
 }
